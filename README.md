@@ -1,12 +1,11 @@
-# React + Vite
+## 📌 What is react-router-dom?
+- react-router-dom is a library that lets you handle navigation (routing) in your React web app without refreshing the page. It’s like telling React:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"Show this page when the URL is /about and show that page when it’s /contact."
 
-Currently, two official plugins are available:
+So instead of building separate HTML pages, you create React components as "pages" and react-router-dom switches between them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Why use it?
+- Because React is a Single Page Application (SPA)
+- which means everything lives in one HTML file. So when users click around your site, you don’t want full-page reloads. You want it to feel fast and smooth — like a real app. That’s what react-router-dom helps with.
